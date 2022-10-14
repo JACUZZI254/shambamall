@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="https://www.shambamall.com/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="SHAMBA.CSS">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="topnav">
+            <div class="nav__logo">
+                <img src="2.jpg" height="2px" width="4px" alt="logo">
+            </div>
+            <div class="search_bar">
+                <div class="select">
+                    <select type="text" name="search" class="form-control">
+            <option>Select category</option>
+            <option>Farm equipment</option>
+        </select>
+                </div>
+                <div class="search"><input type="text" name="search" class="form-control"></div>
+                <div><button class="btn btn-danger">Search</button></div>
+            </div>
+            <div class="help_center">
+                <a href="#">Help center</a>
+                <i class="la la-bars toggler"></i>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <div class="nav__menu">
+                <ul class="bottomnav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="https://www.shambamall.com/sell" class="nav__link">Sell on shamba</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Land</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Hire professionals</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="https://www.shambamall.com/login" class="nav__link">Login
+         <i class="la la-user"></i></a></li>
+                    <li class="nav__item"><a href="https://www.shambamall.com/cart" class="nav__link">Cart  <i class="la la-shopping-cart"></i><badge/></a></li>
+
+                </ul>
+            </div>
+        </div>
+        <router-view></router-view>
+        <div class="header">
+            <div class="links">
+                <ul class="nav_list">
+                    <li class="nav__item">
+                        <div>
+                            <h4 class="nav__link"><strong>CATEGORIES</strong></h4>
+                        </div>
+
+                    </li>
+                    <li class="nav__item">
+                        <div><a href="#" class="nav__link">Machinery and equipment</a></div>
+                        <div> > </div>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Crop production</a>
+                        <div> > </div>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Animal health</a>
+                        <div> > </div>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Agricultural waste</a>
+                        <div> > </div>
+                    </li>
+                    <li class="nav__item"><a href="#" class="nav__link">Pet supplies</a>
+                        <div> > </div>
+                    </li>
+                    <li class="nav__item"><a href="#" class="nav__link">Vetinary services</a>
+                        <div> > </div>
+                    </li>
+                    <li class="nav__item"><a href="#" class="nav__link">Land leasing services</a>
+                        <div> > </div>
+                    </li>
+                    <li class="nav__item"><a href="#" class="nav__link">Pipe installation</a>
+                        <div> > </div>
+                    </li>
+                    <li class="nav__item"><a href="#" class="nav__link">Shamba automation</a>
+                        <div> > </div>
+                    </li>
+                    <li class="nav__item"><a href="#" class="nav__link"> Other services</a>
+                        <div> > </div>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="slide_container">
+                <div class="slider">
+                    <div class="slide active">
+                        <img src="IMG-20220704-WA0018.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="Agriculture-Equipment.png">
+                    </div>
+                    <div class="slide">
+                        <img src="Factory-Direct-Agricultural-50HP-Multifunctional-Crawler-Tractor-Mini-Tiller.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="photos">
+                <img style="margin-top: 0px" src="IMG-20220704-WA0011.jpg">
+                <img src="IMG-20220704-WA0012.jpg">
+                <img src="IMG-20220704-WA0018.jpg">
+            </div>
+            <div class="controls">
+
+            </div>
+        </div>
+
+
+        <section class="products">
+            <h4><strong>Products</strong></h4>
+            <div class="cards">
+
+                <div class="card">
+                    <a href="https://www.shambamall.com/product/1">
+                        <div class="card_header">
+                            <img src="https://www.shambamall.com/download.png">
+                        </div>
+                    </a>
+                    <div class="card_body">
+                        <h5><strong>Kemtal weeder</strong></h5>
+                        <p>
+                            <span>Kshs 180</span>
+                            <del><sup>Kshs 195</sup></del>
+                        </p>
+                        <a href="https://www.shambamall.com/login">
+                            <add-to-cart :product="{&quot;id&quot;:1,&quot;name&quot;:&quot;Kemtal weeder&quot;,&quot;slug&quot;:&quot;Kemtal weeder&quot;,&quot;description&quot;:&quot;&lt;ul&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;\/ul&gt;&quot;,&quot;condition&quot;:&quot;New&quot;,&quot;warranty&quot;:&quot;2years&quot;,&quot;marketingtype&quot;:&quot;New product 2021&quot;,&quot;corecomponentswarranty&quot;:&quot;3years&quot;,&quot;brand&quot;:&quot;BT&quot;,&quot;modelnumber&quot;:&quot;12345678&quot;,&quot;industries&quot;:&quot;Farms&quot;,&quot;aftersaleservices&quot;:&quot;Online support&quot;,&quot;weight&quot;:&quot;0.1kg&quot;,&quot;application&quot;:&quot;Poultry&quot;,&quot;usage&quot;:&quot;Water supplies&quot;,&quot;advantage&quot;:&quot;Water saving Environmental&quot;,&quot;created_at&quot;:&quot;2022-07-12T04:04:43.000000Z&quot;,&quot;updated_at&quot;:&quot;2022-07-12T04:04:43.000000Z&quot;,&quot;sale_price&quot;:&quot;195&quot;,&quot;price&quot;:&quot;180&quot;,&quot;image_name&quot;:&quot;download.png&quot;}"
+                            />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.shambamall.com/product/2">
+                        <div class="card_header">
+                            <img src="https://www.shambamall.com/download (1).png">
+                        </div>
+                    </a>
+                    <div class="card_body">
+                        <h5><strong>Kemtal weeder</strong></h5>
+                        <p>
+                            <span>Kshs 180</span>
+                            <del><sup>Kshs 195</sup></del>
+                        </p>
+                        <a href="https://www.shambamall.com/login">
+                            <add-to-cart :product="{&quot;id&quot;:2,&quot;name&quot;:&quot;Kemtal weeder&quot;,&quot;slug&quot;:&quot;Kemtal weeder&quot;,&quot;description&quot;:&quot;&lt;ul&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;\/ul&gt;&quot;,&quot;condition&quot;:&quot;New&quot;,&quot;warranty&quot;:&quot;2years&quot;,&quot;marketingtype&quot;:&quot;New product 2021&quot;,&quot;corecomponentswarranty&quot;:&quot;3years&quot;,&quot;brand&quot;:&quot;BT&quot;,&quot;modelnumber&quot;:&quot;12345678&quot;,&quot;industries&quot;:&quot;Farms&quot;,&quot;aftersaleservices&quot;:&quot;Online support&quot;,&quot;weight&quot;:&quot;0.1kg&quot;,&quot;application&quot;:&quot;Poultry&quot;,&quot;usage&quot;:&quot;Water supplies&quot;,&quot;advantage&quot;:&quot;Water saving Environmental&quot;,&quot;created_at&quot;:&quot;2022-07-12T04:04:43.000000Z&quot;,&quot;updated_at&quot;:&quot;2022-07-12T04:04:43.000000Z&quot;,&quot;sale_price&quot;:&quot;195&quot;,&quot;price&quot;:&quot;180&quot;,&quot;image_name&quot;:&quot;download (1).png&quot;}"
+                            />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.shambamall.com/product/3">
+                        <div class="card_header">
+                            <img src="https://www.shambamall.com/shopping.png">
+                        </div>
+                    </a>
+                    <div class="card_body">
+                        <h5><strong>Kemtal weeder</strong></h5>
+                        <p>
+                            <span>Kshs 180</span>
+                            <del><sup>Kshs 195</sup></del>
+                        </p>
+                        <a href="https://www.shambamall.com/login">
+                            <add-to-cart :product="{&quot;id&quot;:3,&quot;name&quot;:&quot;Kemtal weeder&quot;,&quot;slug&quot;:&quot;Kemtal weeder&quot;,&quot;description&quot;:&quot;&lt;ul&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;\/ul&gt;&quot;,&quot;condition&quot;:&quot;New&quot;,&quot;warranty&quot;:&quot;2years&quot;,&quot;marketingtype&quot;:&quot;New product 2021&quot;,&quot;corecomponentswarranty&quot;:&quot;3years&quot;,&quot;brand&quot;:&quot;BT&quot;,&quot;modelnumber&quot;:&quot;12345678&quot;,&quot;industries&quot;:&quot;Farms&quot;,&quot;aftersaleservices&quot;:&quot;Online support&quot;,&quot;weight&quot;:&quot;0.1kg&quot;,&quot;application&quot;:&quot;Poultry&quot;,&quot;usage&quot;:&quot;Water supplies&quot;,&quot;advantage&quot;:&quot;Water saving Environmental&quot;,&quot;created_at&quot;:&quot;2022-07-12T04:04:43.000000Z&quot;,&quot;updated_at&quot;:&quot;2022-07-12T04:04:43.000000Z&quot;,&quot;sale_price&quot;:&quot;195&quot;,&quot;price&quot;:&quot;180&quot;,&quot;image_name&quot;:&quot;shopping.png&quot;}"
+                            />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.shambamall.com/product/4">
+                        <div class="card_header">
+                            <img src="https://www.shambamall.com/shopping (1).png">
+                        </div>
+                    </a>
+                    <div class="card_body">
+                        <h5><strong>Kemtal weeder</strong></h5>
+                        <p>
+                            <span>Kshs 180</span>
+                            <del><sup>Kshs 195</sup></del>
+                        </p>
+                        <a href="https://www.shambamall.com/login">
+                            <add-to-cart :product="{&quot;id&quot;:4,&quot;name&quot;:&quot;Kemtal weeder&quot;,&quot;slug&quot;:&quot;Kemtal weeder&quot;,&quot;description&quot;:&quot;&lt;ul&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;\/ul&gt;&quot;,&quot;condition&quot;:&quot;New&quot;,&quot;warranty&quot;:&quot;2years&quot;,&quot;marketingtype&quot;:&quot;New product 2021&quot;,&quot;corecomponentswarranty&quot;:&quot;3years&quot;,&quot;brand&quot;:&quot;BT&quot;,&quot;modelnumber&quot;:&quot;12345678&quot;,&quot;industries&quot;:&quot;Farms&quot;,&quot;aftersaleservices&quot;:&quot;Online support&quot;,&quot;weight&quot;:&quot;0.1kg&quot;,&quot;application&quot;:&quot;Poultry&quot;,&quot;usage&quot;:&quot;Water supplies&quot;,&quot;advantage&quot;:&quot;Water saving Environmental&quot;,&quot;created_at&quot;:&quot;2022-07-12T04:04:43.000000Z&quot;,&quot;updated_at&quot;:&quot;2022-07-12T04:04:43.000000Z&quot;,&quot;sale_price&quot;:&quot;195&quot;,&quot;price&quot;:&quot;180&quot;,&quot;image_name&quot;:&quot;shopping (1).png&quot;}"
+                            />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.shambamall.com/product/5">
+                        <div class="card_header">
+                            <img src="https://www.shambamall.com/shopping (4).png">
+                        </div>
+                    </a>
+                    <div class="card_body">
+                        <h5><strong>Kemtal weeder</strong></h5>
+                        <p>
+                            <span>Kshs 180</span>
+                            <del><sup>Kshs 195</sup></del>
+                        </p>
+                        <a href="https://www.shambamall.com/login">
+                            <add-to-cart :product="{&quot;id&quot;:5,&quot;name&quot;:&quot;Kemtal weeder&quot;,&quot;slug&quot;:&quot;Kemtal weeder&quot;,&quot;description&quot;:&quot;&lt;ul&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;\/ul&gt;&quot;,&quot;condition&quot;:&quot;New&quot;,&quot;warranty&quot;:&quot;2years&quot;,&quot;marketingtype&quot;:&quot;New product 2021&quot;,&quot;corecomponentswarranty&quot;:&quot;3years&quot;,&quot;brand&quot;:&quot;BT&quot;,&quot;modelnumber&quot;:&quot;12345678&quot;,&quot;industries&quot;:&quot;Farms&quot;,&quot;aftersaleservices&quot;:&quot;Online support&quot;,&quot;weight&quot;:&quot;0.1kg&quot;,&quot;application&quot;:&quot;Poultry&quot;,&quot;usage&quot;:&quot;Water supplies&quot;,&quot;advantage&quot;:&quot;Water saving Environmental&quot;,&quot;created_at&quot;:&quot;2022-07-12T04:04:43.000000Z&quot;,&quot;updated_at&quot;:&quot;2022-07-12T04:04:43.000000Z&quot;,&quot;sale_price&quot;:&quot;195&quot;,&quot;price&quot;:&quot;180&quot;,&quot;image_name&quot;:&quot;shopping (4).png&quot;}"
+                            />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.shambamall.com/product/6">
+                        <div class="card_header">
+                            <img src="https://www.shambamall.com/download.png" alt="image-cannot be displayed">
+                        </div>
+                    </a>
+                    <div class="card_body">
+                        <h5><strong>Kemtal weeder</strong></h5>
+                        <p>
+                            <span>Kshs 180</span>
+                            <del><sup>Kshs 195</sup></del>
+                        </p>
+                        <a href="https://www.shambamall.com/login">
+                            <add-to-cart :product="{&quot;id&quot;:6,&quot;name&quot;:&quot;Kemtal weeder&quot;,&quot;slug&quot;:&quot;Kemtal weeder&quot;,&quot;description&quot;:&quot;&lt;ul&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;\/ul&gt;&quot;,&quot;condition&quot;:&quot;New&quot;,&quot;warranty&quot;:&quot;2years&quot;,&quot;marketingtype&quot;:&quot;New product 2021&quot;,&quot;corecomponentswarranty&quot;:&quot;3years&quot;,&quot;brand&quot;:&quot;BT&quot;,&quot;modelnumber&quot;:&quot;12345678&quot;,&quot;industries&quot;:&quot;Farms&quot;,&quot;aftersaleservices&quot;:&quot;Online support&quot;,&quot;weight&quot;:&quot;0.1kg&quot;,&quot;application&quot;:&quot;Poultry&quot;,&quot;usage&quot;:&quot;Water supplies&quot;,&quot;advantage&quot;:&quot;Water saving Environmental&quot;,&quot;created_at&quot;:&quot;2022-07-12T04:04:43.000000Z&quot;,&quot;updated_at&quot;:&quot;2022-07-12T04:04:43.000000Z&quot;,&quot;sale_price&quot;:&quot;195&quot;,&quot;price&quot;:&quot;180&quot;,&quot;image_name&quot;:&quot;download.png&quot;}"
+                            />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.shambamall.com/product/7">
+                        <div class="card_header">
+                            <img src="https://www.shambamall.com/download (1).png">
+                        </div>
+                    </a>
+                    <div class="card_body">
+                        <h5><strong>Kemtal weeder</strong></h5>
+                        <p>
+                            <span>Kshs 180</span>
+                            <del><sup>Kshs 195</sup></del>
+                        </p>
+                        <a href="https://www.shambamall.com/login">
+                            <add-to-cart :product="{&quot;id&quot;:7,&quot;name&quot;:&quot;Kemtal weeder&quot;,&quot;slug&quot;:&quot;Kemtal weeder&quot;,&quot;description&quot;:&quot;&lt;ul&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;\/ul&gt;&quot;,&quot;condition&quot;:&quot;New&quot;,&quot;warranty&quot;:&quot;2years&quot;,&quot;marketingtype&quot;:&quot;New product 2021&quot;,&quot;corecomponentswarranty&quot;:&quot;3years&quot;,&quot;brand&quot;:&quot;BT&quot;,&quot;modelnumber&quot;:&quot;12345678&quot;,&quot;industries&quot;:&quot;Farms&quot;,&quot;aftersaleservices&quot;:&quot;Online support&quot;,&quot;weight&quot;:&quot;0.1kg&quot;,&quot;application&quot;:&quot;Poultry&quot;,&quot;usage&quot;:&quot;Water supplies&quot;,&quot;advantage&quot;:&quot;Water saving Environmental&quot;,&quot;created_at&quot;:&quot;2022-07-12T04:04:43.000000Z&quot;,&quot;updated_at&quot;:&quot;2022-07-12T04:04:43.000000Z&quot;,&quot;sale_price&quot;:&quot;195&quot;,&quot;price&quot;:&quot;180&quot;,&quot;image_name&quot;:&quot;download (1).png&quot;}"
+                            />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.shambamall.com/product/8">
+                        <div class="card_header">
+                            <img src="https://www.shambamall.com/shopping.png">
+                        </div>
+                    </a>
+                    <div class="card_body">
+                        <h5><strong>Kemtal weeder</strong></h5>
+                        <p>
+                            <span>Kshs 180</span>
+                            <del><sup>Kshs 195</sup></del>
+                        </p>
+                        <a href="https://www.shambamall.com/login">
+                            <add-to-cart :product="{&quot;id&quot;:8,&quot;name&quot;:&quot;Kemtal weeder&quot;,&quot;slug&quot;:&quot;Kemtal weeder&quot;,&quot;description&quot;:&quot;&lt;ul&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;\/ul&gt;&quot;,&quot;condition&quot;:&quot;New&quot;,&quot;warranty&quot;:&quot;2years&quot;,&quot;marketingtype&quot;:&quot;New product 2021&quot;,&quot;corecomponentswarranty&quot;:&quot;3years&quot;,&quot;brand&quot;:&quot;BT&quot;,&quot;modelnumber&quot;:&quot;12345678&quot;,&quot;industries&quot;:&quot;Farms&quot;,&quot;aftersaleservices&quot;:&quot;Online support&quot;,&quot;weight&quot;:&quot;0.1kg&quot;,&quot;application&quot;:&quot;Poultry&quot;,&quot;usage&quot;:&quot;Water supplies&quot;,&quot;advantage&quot;:&quot;Water saving Environmental&quot;,&quot;created_at&quot;:&quot;2022-07-12T04:04:43.000000Z&quot;,&quot;updated_at&quot;:&quot;2022-07-12T04:04:43.000000Z&quot;,&quot;sale_price&quot;:&quot;195&quot;,&quot;price&quot;:&quot;180&quot;,&quot;image_name&quot;:&quot;shopping.png&quot;}"
+                            />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.shambamall.com/product/9">
+                        <div class="card_header">
+                            <img src="https://www.shambamall.com/shopping (1).png">
+                        </div>
+                    </a>
+                    <div class="card_body">
+                        <h5><strong>Kemtal weeder</strong></h5>
+                        <p>
+                            <span>Kshs 180</span>
+                            <del><sup>Kshs 195</sup></del>
+                        </p>
+                        <a href="https://www.shambamall.com/login">
+                            <add-to-cart :product="{&quot;id&quot;:9,&quot;name&quot;:&quot;Kemtal weeder&quot;,&quot;slug&quot;:&quot;Kemtal weeder&quot;,&quot;description&quot;:&quot;&lt;ul&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;\/ul&gt;&quot;,&quot;condition&quot;:&quot;New&quot;,&quot;warranty&quot;:&quot;2years&quot;,&quot;marketingtype&quot;:&quot;New product 2021&quot;,&quot;corecomponentswarranty&quot;:&quot;3years&quot;,&quot;brand&quot;:&quot;BT&quot;,&quot;modelnumber&quot;:&quot;12345678&quot;,&quot;industries&quot;:&quot;Farms&quot;,&quot;aftersaleservices&quot;:&quot;Online support&quot;,&quot;weight&quot;:&quot;0.1kg&quot;,&quot;application&quot;:&quot;Poultry&quot;,&quot;usage&quot;:&quot;Water supplies&quot;,&quot;advantage&quot;:&quot;Water saving Environmental&quot;,&quot;created_at&quot;:&quot;2022-07-12T04:04:43.000000Z&quot;,&quot;updated_at&quot;:&quot;2022-07-12T04:04:43.000000Z&quot;,&quot;sale_price&quot;:&quot;195&quot;,&quot;price&quot;:&quot;180&quot;,&quot;image_name&quot;:&quot;shopping (1).png&quot;}"
+                            />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.shambamall.com/product/10">
+                        <div class="card_header">
+                            <img src="https://www.shambamall.com/shopping (4).png">
+                        </div>
+                    </a>
+                    <div class="card_body">
+                        <h5><strong>Kemtal weeder</strong></h5>
+                        <p>
+                            <span>Kshs 180</span>
+                            <del><sup>Kshs 195</sup></del>
+                        </p>
+                        <a href="https://www.shambamall.com/login">
+                            <add-to-cart :product="{&quot;id&quot;:10,&quot;name&quot;:&quot;Kemtal weeder&quot;,&quot;slug&quot;:&quot;Kemtal weeder&quot;,&quot;description&quot;:&quot;&lt;ul&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;li&gt;Best for use in feeding chicken below the height of 2m&lt;\/li&gt;&lt;\/ul&gt;&quot;,&quot;condition&quot;:&quot;New&quot;,&quot;warranty&quot;:&quot;2years&quot;,&quot;marketingtype&quot;:&quot;New product 2021&quot;,&quot;corecomponentswarranty&quot;:&quot;3years&quot;,&quot;brand&quot;:&quot;BT&quot;,&quot;modelnumber&quot;:&quot;12345678&quot;,&quot;industries&quot;:&quot;Farms&quot;,&quot;aftersaleservices&quot;:&quot;Online support&quot;,&quot;weight&quot;:&quot;0.1kg&quot;,&quot;application&quot;:&quot;Poultry&quot;,&quot;usage&quot;:&quot;Water supplies&quot;,&quot;advantage&quot;:&quot;Water saving Environmental&quot;,&quot;created_at&quot;:&quot;2022-07-12T04:04:44.000000Z&quot;,&quot;updated_at&quot;:&quot;2022-07-12T04:04:44.000000Z&quot;,&quot;sale_price&quot;:&quot;195&quot;,&quot;price&quot;:&quot;180&quot;,&quot;image_name&quot;:&quot;shopping (4).png&quot;}"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="machinery">
+            <h4><strong>Machinery</strong></h4>
+            <div class="machinery_cards">
+                <div class="machinery_card">
+                    <div class="machinerycard_header">
+                        <img src="download (1).jpeg">
+                    </div>
+                    <div class="card_body">
+                        <h5><strong>Ford four wheeler tractor plough</strong></h5>
+                        <p>
+                            <span>Kshs 1.5M</span>
+                            <del><sup>Kshs 1.9M</sup></del>
+                        </p>
+                        <button class="cart">Add to cart
+                <i class="la la-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="machinery_card">
+                    <div class="machinerycard_header">
+                        <img src="download (2).jpeg">
+                    </div>
+                    <div class="card_body">
+                        <h5><strong>Ford four wheeler tractor plough</strong></h5>
+                        <p>
+                            <span>Kshs 1.5M</span>
+                            <del><sup>Kshs 1.9M</sup></del>
+                        </p>
+                        <button class="cart">Add to cart
+                <i class="la la-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="machinery_card">
+                    <div class="machinerycard_header">
+                        <img src="HTB1fTvabL1TBuNjy0Fjq6yjyXXaZ.jpg">
+                    </div>
+                    <div class="card_body">
+                        <h5><strong>Ford four wheeler tractor plough</strong></h5>
+                        <p>
+                            <span>Kshs 1.5M</span>
+                            <del><sup>Kshs 1.9M</sup></del>
+                        </p>
+                        <button class="cart">Add to cart
+                <i class="la la-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="machinery_card">
+                    <div class="machinerycard_header">
+                        <img src="images (1).jpeg">
+                    </div>
+                    <div class="card_body">
+                        <h5><strong>Ford four wheeler tractor plough</strong></h5>
+                        <p>
+                            <span>Kshs 1.5M</span>
+                            <del><sup>Kshs 1.9M</sup></del>
+                        </p>
+                        <button class="cart">Add to cart
+                <i class="la la-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="machinery_card">
+                    <div class="machinerycard_header">
+                        <img src="images (2).jpeg">
+                    </div>
+                    <div class="card_body">
+                        <h5><strong>Ford four wheeler tractor plough</strong></h5>
+                        <p>
+                            <span>Kshs 1.5M</span>
+                            <del><sup>Kshs 1.9M</sup></del>
+                        </p>
+                        <button class="cart">Add to cart
+                <i class="la la-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="machinery_card">
+                    <div class="machinerycard_header">
+                        <img src="istockphoto-483452183-612x612.jpg">
+                    </div>
+                    <div class="card_body">
+                        <h5><strong>Ford four wheeler tractor plough</strong></h5>
+                        <p>
+                            <span>Kshs 1.5M</span>
+                            <del><sup>Kshs 1.9M</sup></del>
+                        </p>
+                        <button class="cart">Add to cart
+                <i class="la la-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="machinery_card">
+                    <div class="machinerycard_header">
+                        <img src="images.jpeg">
+                    </div>
+                    <div class="card_body">
+                        <h5><strong>Kemtal weeder</strong></h5>
+                        <p>
+                            <span>Kshs 180</span>
+                            <del><sup>Kshs 195</sup></del>
+                        </p>
+                        <button class="cart">Add to cart <i class="la la-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="machinery_card">
+                    <div class="machinerycard_header">
+                        <img src="Agriculture-Equipment.png">
+                    </div>
+                    <div class="card_body">
+                        <h5><strong>Ford four wheeler tractor plough</strong></h5>
+                        <p>
+                            <span>Kshs 1.5M</span>
+                            <del><sup>Kshs 1.9M</sup></del>
+                        </p>
+                        <button class="cart">Add to cart
+                <i class="la la-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="machinery_card">
+                    <div class="machinerycard_header">
+                        <img src="HTB1fTvabL1TBuNjy0Fjq6yjyXXaZ.jpg">
+                    </div>
+                    <div class="card_body">
+                        <h5><strong>Ford four wheeler tractor plough</strong></h5>
+                        <p>
+                            <span>Kshs 1.5M</span>
+                            <del><sup>Kshs 1.9M</sup></del>
+                        </p>
+                        <button class="cart">Add to cart
+                <i class="la la-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="machinery_card">
+                    <div class="machinerycard_header">
+                        <img src="download (1).jpeg">
+                    </div>
+                    <div class="card_body">
+                        <h5><strong>Ford four wheeler tractor plough</strong></h5>
+                        <p>
+                            <span>Kshs 1.5M</span>
+                            <del><sup>Kshs 1.9M</sup></del>
+                        </p>
+                        <button class="cart">Add to cart
+                <i class="la la-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer_content">
+                <div class="links">
+                    <h4> LET US HELP YOU</h4>
+                    <p>Submit a dispute</p>
+
+                    <p>Your Account</p>
+
+                    <p> Your Orders</p>
+
+                    <p>Shipping rates and policies</p>
+
+                    <p>Returns and replacements</p>
+
+                    <p>FAQ Center</p>
+
+                    <p>Shamba assistant</p>
+                </div>
+                <div class="links">
+                    <h4>MAKE MONEY ON SHAMBA</h4>
+                    <p> Sell on Shamba</p>
+
+                    <p>Become a sale consultant</p>
+
+                    <p>Become a Logistics Service Partner</p>
+
+                    <p>Order & pickup point application</p>
+                </div>
+                <div class="links">
+                    <h4>ABOUT US</h4>
+                    <p>About us</p>
+
+                    <p>Your Account</p>
+
+                    <p>Shamba careers</p>
+
+                    <p>Terms and conditions</p>
+
+                    <p>Privacy policy</p>
+                </div>
+                <div class="form">
+                    <h4>Subscribe to our newsletter to get updates on our latest offers</h4>
+                    <input type="text" class="form-control" name="name" placeholder="Name..."> <br>
+                    <input type="email" class="form-control" name="email" placeholder="Email..."> <br>
+                    <input type="button" class="form-control" value="Submit">
+                    <div class="socials">
+                        <div class="socialicon"><i class="la la-facebook"></i></div>
+                        <div class="socialicon"><i class="la la-instagram"></i></div>
+                        <div class="socialicon"><i class="la la-youtube"></i></div>
+                        <div class="socialicon"><i class="la la-twitter"></i></div>
+                    </div>
+                </div>
+            </div>
+            <hr class="line">
+            <p class="print">All rights reserved Shambamall.com &copy; 2022</p>
+        </footer>
+
+
+    </div>
+</body>
+<script type="text/javascript" src="https://www.shambamall.com/js/main.js"></script>
+<script type="text/javascript" src="/js/app.js"></script>
+
+</html>
